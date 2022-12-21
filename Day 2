@@ -1,0 +1,13 @@
+a=list(map(int,input().split()))
+d=[]
+for i in a:
+    temp = 1
+    for j in a:
+        if j==i:
+            continue
+        else:
+            temp*=j
+    d.append(temp)
+print(d)
+
+        
